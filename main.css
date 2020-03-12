@@ -1,0 +1,21 @@
+* {
+    background-color: rgb(146, 185, 201 );
+}
+
+.word{
+    letter-spacing: 1vw;
+    padding: 15px;
+}
+
+.container {
+    text-align: center;
+    display: grid;
+    padding: 15px auto;
+}
+
+.chances {
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    margin-right: 40px;
+}

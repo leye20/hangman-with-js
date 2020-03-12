@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Hangman Game</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <script type="text/javascript" src="./test.js" defer></script>
+</head>
+
+<body class="container">
+    <h1>Hangman</h1>
+    <h3>Marvel Studio Character</h3>
+    <p>Take a guess to begin.</p>
+    <form action="#" method="GET">
+        <label for="guess">
+            Enter a guess:
+            <input type="text" name="guess" maxlength="1">
+        </label>
+        <input type="submit" value="Guess!">
+    </form>
+    <dl>
+        <dt>Word</dt>
+        <dd class="word"></dd>
+        <dt>Chances</dt>
+        <dd class="chances"></dd>
+        <dt>Past Guesses</dt>
+        <dd>
+            <ul class="past-guesses"></ul>
+        </dd>
+    </dl>
+</body>
+
+</html>
