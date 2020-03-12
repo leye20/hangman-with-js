@@ -46,8 +46,3 @@ document.addEventListener( 'keypress', (event) => {
 });
 
 docUnderScore[0].innerHTML = generateUnderscore().join( ' ' );
-// Check if guess is right. using the index method
-
-// if yes, push to right array
-
-// if no, push to wrong array

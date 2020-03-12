@@ -1,4 +1,3 @@
-// Start Hangman Game code js
 var _this;
 var maxChances = 10;
 
