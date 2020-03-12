@@ -1,10 +1,18 @@
 // Create an array of words
-const words = [ 'fat', 'lazy', 'hungary' ];
+const word = [ 'fat', 'lazy', 'hungary' ];
 // Select words randomly
-var selectedWords = Math.floor( Math.random() * words.length );
-console.log( 'hello world' );
+var randNum = Math.floor( Math.random() * word.length );
+var selectedWord = word[ randNum ];
+var underScore = [];
+console.log( selectedWord );
 // Create the underscore based on length of word
-
+var generateUnderscore = () => {
+  for ( var i = 0; i < selectedWord.length; i++) {
+    underScore.push( '_' );
+  }
+  return underScore;
+}
+console.log( generateUnderscore() );
 // Get users guess
 
 // Check if guess is right
