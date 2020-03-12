@@ -14,7 +14,10 @@ var generateUnderscore = () => {
 }
 console.log( generateUnderscore() );
 // Get users guess
-
+document.addEventListener( 'keypress', (event) => {
+  var keyword = String.fromCharCode( event.keyCode );
+  console.log( keyword );
+});
 // Check if guess is right
 
 // if yes, push to right array
